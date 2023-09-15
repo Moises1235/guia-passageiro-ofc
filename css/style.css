@@ -1,1 +1,41 @@
 
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.body-azulao{
+    background-color: rgb(14, 54, 175);
+}
+
+.login-txt{
+    font-size: 3rem;
+    color: white;
+    margin-left: 5%;
+    margin-top: 25%;
+    margin-bottom: 15%  ;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-login input{
+    margin-bottom: 3%;
+    padding: 12px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.button-login{
+    color: #eee;
+    background-color: rgb(14, 54, 175);
+    border: 1px solid #eee;
+    width: 35%;
+    border-radius: 20px;
+    margin-top: 6%;
+    font-size: 1.3rem;
+}
