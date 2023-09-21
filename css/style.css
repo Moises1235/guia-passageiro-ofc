@@ -1,46 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0;
+    margin: 0;
+}
 
-</head>
+.body-azulao{
+    background-color: rgb(14, 54, 175);
+  
+}
 
+.login-txt{
+    font-size: 3rem;
+    color: white;
+    margin-left: 5%;
+    margin-top: 25%;
+    margin-bottom: 15%  ;
+}
 
-<body class="body-azulao">
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-login input{
+    margin-bottom: 7%;
+    padding: 4%;
+    border-radius: 15px;
+    width: 70%;
+}
+
+.form-login input:hover{
+    background-color: rgb(210, 210, 215);
+}
+
+.button-login{
+    color: #eee;
+    background-color: rgb(14, 54, 175);
+    border: 1px solid #eee;
+    width: 45%;
+    border-radius: 20px;
+    margin-top: 6%;
+    font-size: 1.3rem;
+    padding: 1.5%;
+}
+
+.button-login:active{
+    background-color: rgb(62, 167, 236);
+}
+
+.img-login{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.img-login img{
+    width: 20%;
     
-    <h1 class="login-txt">Bem-Vindo de volta!</h1>
+}
 
-    <form class="form-login">
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Senha">
-        <button type="button" class="button-login">Entrar</button>
-    </form>
+.registrar-login{
+    margin-left: 8%;
+    margin-top: 9%;
+    font-size: 1.2rem;
+}
 
-    
-    <div class="registrar-login">
-    <p>Não tem conta?</p> 
-    <a href="cadastro.html" class="registre-login">Resgistre-se</a>
-    </div>
+.registre-login{
+    color: white;
+}
 
-    <div class="logar-login">
-   
-    <h3 class="text-logar-login">Logar com:</h3>
+.logar-login{
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    <div class="img-login">
-    <img src="imagens/google.png">
-    <img src="imagens/facebook.png">
-    </div>
-
-    </div>
-
-
-
-</body>
-</html>
+.text-logar-login{
+    margin-bottom: 8%;
+}
