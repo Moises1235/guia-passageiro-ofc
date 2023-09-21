@@ -1,44 +1,46 @@
-body{
-    font-family: 'Lexend Deca', sans-serif;
-    padding: 0;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 
-.body-azulao{
-    background-color: rgb(14, 54, 175);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+</head>
 
-.login-txt{
-    font-size: 3rem;
-    color: white;
-    margin-left: 5%;
-    margin-top: 25%;
-    margin-bottom: 15%  ;
-}
 
-.form-login{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
+<body class="body-azulao">
+    
+    <h1 class="login-txt">Bem-Vindo de volta!</h1>
 
-.form-login input{
-    margin-bottom: 7%;
-    padding: 12px;
-    border-radius: 15px;
-    width: 70%;
-}
+    <form class="form-login">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Senha">
+        <button type="button" class="button-login">Entrar</button>
+    </form>
 
-.button-login{
-    color: #eee;
-    background-color: rgb(14, 54, 175);
-    border: 1px solid #eee;
-    width: 35%;
-    border-radius: 20px;
-    margin-top: 6%;
-    font-size: 1.3rem;
-}
+    
+    <div class="registrar-login">
+    <p>Não tem conta?</p> 
+    <a href="cadastro.html" class="registre-login">Resgistre-se</a>
+    </div>
+
+    <div class="logar-login">
+   
+    <h3 class="text-logar-login">Logar com:</h3>
+
+    <div class="img-login">
+    <img src="imagens/google.png">
+    <img src="imagens/facebook.png">
+    </div>
+
+    </div>
+
+
+
+</body>
+</html>
