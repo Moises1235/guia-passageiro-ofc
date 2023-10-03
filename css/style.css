@@ -215,9 +215,10 @@ footer div{
 }
 
 footer img{
-    width: 13%;
+    width: 60%;
     padding: 5%;
     cursor: pointer;
+    margin-left: 13%;
 }
 .invisible{
     background-color: rgb(112, 163, 245);
@@ -399,6 +400,7 @@ footer img{
     .header-topo h1{
         padding-left: 4%;
         font-size: 1.8rem;
+        padding-right: 0;
     }
     
     .txt-negrito{
@@ -438,6 +440,123 @@ footer img{
         margin-top: 1%;
     }
 
-    
+    /* Adicionar-pagamentos */
+    .formas-pagamento{
+        width: 100%;
+        margin-left: 10%;
+        display: flex;
+        margin-bottom: 12%;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .formas-pagamento img{
+        width: 15%;
+        margin-right: 5%;
+    }
+
+    /*Conversas */
+    .conversas{
+        width: 100%;
+        margin-left: 6%;
+        display: flex;
+        margin-bottom: 12%;
+        font-weight: bold;
+        font-size: 1.4rem;
+        color: black;
+        
+    }
+    .conversas img{
+        width: 25%;
+        margin-right: 5%;
+    }
+    .link-chat{
+        text-decoration: none;
+    }
+
+    /* Chat */
+  
+    .chat-eu{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        width: 100%
+    }
+    .chat-eu div{
+        background-color: rgb(30, 54, 191);
+        width: 40%;
+        border-radius: 10px;
+        padding: 3%;
+        color: white;
+        margin-right: -10%;
+        margin-bottom: 10%;
+    }
+    .chat-motorista{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%
+    }
+    .chat-motorista div{
+        background-color: rgb(64, 65, 67);
+        width: 40%;
+        border-radius: 10px;
+        padding: 3%;
+        color: white;
+        margin-left: 6%;
+        margin-bottom: 10%;
+    }
+    .chat-eu p, .chat-motorista p{
+        margin-left: 5%;
+        font-size: 1.2rem;
+    }
+    .mensagem{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    input#msg-chat{
+        color: white;
+        background-color: rgb(64, 65, 67);
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 15%;
+        width: 75%;
+        padding: 6%;
+        font-size: 1.2rem;
+        margin-left: 5%;
+        border: 1px solid #D0CFCE;
+        outline: none;
+        &:focus{
+          border: 1px solid #000000;
+          transition: 0.35s ease;
+          color: #fcf8f8;
+          &::-webkit-input-placeholder{
+            transition: opacity 0.45s ease; 
+              opacity: 0;
+           }
+          &::-moz-placeholder {
+            transition: opacity 0.45s ease; 
+              opacity: 0;
+           }
+          &:-ms-placeholder {
+           transition: opacity 0.45s ease; 
+             opacity: 0;
+           }    
+         }
+       }
+       input#msg-chat::placeholder{
+        color: white;
+       }
+       .enviar-msg{
+        display: flex;
+        width: 100%;
+       }
+      .enviar-msg img{
+        width: 15%;
+        margin-top: 12%;
+       }
+
+      
+
 
    
