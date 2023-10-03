@@ -474,7 +474,19 @@ footer img{
     }
 
     /* Chat */
-  
+    .header-topo{
+        display: flex;
+    }
+    .header-topo a{
+        width: 15%;
+        margin-right: 3%;
+        margin-left: 5%;
+        
+    }
+    .header-topo img{
+        width: 100%;
+        
+    }
     .chat-eu{
         display: flex;
         flex-direction: column;
