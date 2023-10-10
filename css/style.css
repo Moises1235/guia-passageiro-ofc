@@ -23,6 +23,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    text-decoration: none;
 }
 
 .form-login input{
@@ -45,6 +46,10 @@ body{
     margin-top: 6%;
     font-size: 1.3rem;
     padding: 1.5%;
+}
+.links{
+    text-decoration: none;
+    color: white;
 }
 
 .button-login:active{
@@ -378,12 +383,12 @@ footer img{
     .botao-continuar button{
         padding: 10px;
         width: 70%;
-        border-radius: 50px;
+        border-radius: 10px;
         background-color: rgb(30, 54, 191);
         margin-top: 20%;
         color: white;
         font-size: 1.4rem;
-        border: 1px solid white;
+        border: 3px solid white;
     }
 
     /* Pagamentos */
@@ -466,7 +471,7 @@ footer img{
         
     }
     .conversas img{
-        width: 25%;
+        width: 35%;
         margin-right: 5%;
     }
     .link-chat{
@@ -566,6 +571,101 @@ footer img{
       .enviar-msg img{
         width: 15%;
         margin-top: 12%;
+       }
+
+       /*escolher modelo de carro*/
+      
+
+       /* Escolher motorista */
+       .conversas .estrela{
+        width: 10%;
+
+       }
+       .coluna-estrela{
+        display: flex;
+        flex-direction: column;
+        
+       }
+       .linha-estrela{
+        display: flex;
+        flex-direction: row;
+       }
+
+       /* Perfil Motorista */
+
+       .metade-motorista{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+       }
+       .img-perfil-motorista{
+        width: 40%;
+        margin-top: 20%;
+        background-color: white;
+        border-radius: 50%;
+       }
+       .metade-motorista h4{
+        margin-top: -3%;
+       }
+       .dados-motorista{
+        display: flex;
+        flex-direction: row;
+       }
+       .viagens-motorista, .nota-motorista, .anos-motorista{
+        display: flex;
+        flex-direction: column;
+        margin-right: 135%;
+        margin-left: -65%;
+        align-items: center
+       }
+       .dados-motorista p{
+        margin-top: 4%;
+       }
+       .dados-motorista h2{
+        margin-bottom: 2%;
+       }
+       .escondidinho{
+        display: none;
+       }
+       .infos-adicionais-motorista{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 8%;
+        margin-top: 5%;
+       }
+       .botao-descricao-motorista{
+        border: none;
+        width: 30%;
+        padding: 2%;
+        border-radius: 30px;
+        background-color: #cccaca;
+       }
+       .avaliacoes-motorista{
+        display: flex;
+        flex-direction: column;
+       }
+       .avaliacoes-motorista img{
+        width: 7%;
+        margin-top: -4%;
+       }
+       .enviar-solicitacao{
+        display: flex;
+        justify-content: center;
+        margin-top: 35%;
+        width: 100%;
+       }
+       .enviar-solicitacao button {
+        width: 120%;
+        padding: 5%;
+        background-color: rgb(30, 54, 191);
+        border-radius: 15px;
+        color: white;
+        font-size: 1.6rem;
+        margin-left: -15%;
        }
 
       
