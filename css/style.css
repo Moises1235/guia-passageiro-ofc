@@ -74,7 +74,7 @@ body{
     font-size: 1.2rem;
 }
 
-.registre-login{
+.texto-branco{
     color: white;
 }
 
@@ -604,7 +604,7 @@ footer img{
        .img-perfil-motorista{
         width: 40%;
         margin-top: 20%;
-        background-color: white;
+      
         border-radius: 50%;
        }
        .metade-motorista h4{
@@ -668,7 +668,265 @@ footer img{
         margin-left: -15%;
        }
 
+      /*Viagem recebida */
+      .itens{
+        position: relative;
+      }
+      .viagem-recebida{
+        position: absolute;
+        height: 40vh;
+        margin-left: 7%;
+        background-color: rgb(211, 211, 220);
+        width: 87%;
+        border-radius: 20px;
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .viagem-recebida h2{
+        margin-top: 15%;
+        margin-bottom: 30%;
+      }
+
+      .viagem-recebida a{
+        color: blue;
+        font-size: 1.2rem;
+      }
+      .viagem-recebida button{
+        padding: 2%;
+     
+      }
+
+      .opaco{
+        opacity: 0.6;
+        position: relative;
+      }
+
+      .viagem-aceita a{
+        width: 85%;
+        margin-bottom: 4%;
+      }
+
+      .pagar-viagem{
+        width: 100%;
+        padding: 2%;
+        border-radius: 20px;
+        color: white;
+        background-color: rgb(30, 54, 191);
+        font-size: 1.2rem;
+        margin-top: 10%;
+      }
+
+      .negociar-valor-viagem{
+        width: 100%;
+        padding: 2%;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 1.2rem;
+      }
+
+      .viagem-recebida p{
+        margin-top: -15%;
+      }
+
+
+
+      /*Viagem solicitada */
+      .passageiro-da-viagem{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+      .passageiro-da-viagem img{
+        width: 20%;
+        margin-left: 4%;
+      }
+      .passageiro-da-viagem p{
+        margin-top: 10%;
+        margin-left: 2%;
+        font-size: 1.2rem;
+      }
       
+      .data-da-viagem{
+        margin-left: 6%;
+      }
+
+      .data-da-viagem p{
+        font-size: 1.2rem;
+      }
+
+      .destino-da-viagem{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }    
+
+      .barra-de-destino{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 14%;
+        border-bottom: 5px solid black;
+      }
+
+      .destino-da-viagem h1{
+        margin-left: 6%;
+      }
+     
+      .destino-da-viagem img{
+        margin-top: 5%;
+        margin-left: 8%;
+        border-radius: 20px;
+        width: 100%;
+      }
+
+      .botoes-viagem-solicitada{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8%;
+        margin-left: 8%;
+      }
+
+     .botoes-viagem-solicitada a{
+        width: 70%;
+        margin-bottom: 6%;
+      }
+
+      .aceitar-viagem{
+        width: 100%;
+        padding: 2%;
+        border-radius: 20px;
+        color: white;
+        background-color: rgb(30, 54, 191);
+        font-size: 1.6rem;
+      }
+
+      .recusar-viagem{
+        width: 100%;
+        padding: 2%;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 1.6rem;
+      }
+
+      /*Preço da viagem */
+
+      .escolher-preco{
+        margin-left: 25%;
+        margin-top: 45%;
+        font-size: 1.8rem;
+      }
+
+      .enviar-preco button{
+        width: 70%;
+        padding: 2%;
+        color: white;
+        background-color: rgb(30, 54, 191);;
+        font-size: 1.4rem;
+        border-radius: 20px;
+      }
+
+      .enviar-preco{
+        width: 100%;
+        margin-top: 60% 
+      }
+
+      .enviar-preco a{
+        margin-left: 22%;
+      }
+
+      /*Viagem aceita */
+      .subir-formaspagamento{
+        position: absolute;
+        background-color: rgb(46, 71, 218);;
+        width: 100%;
+        height: 48vh;
+        margin-top: 112%;
+        color: white;
+      }
+
+      .div-footer{
+        position: relative;
+      }
+
+      .subir-formaspagamento div{
+        margin-left: 4%;
+      }
+
+      .formas-pagamento-linha{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .formas-pagamento-coluna{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .formas-pagamento-coluna h3{
+        margin-left: 8%;
+        margin-top: 0;
+      }
+
+      .radio-pagamento{
+        width: 100%;
+      }
+
+      .radio-pagamento input{
+        padding: 5%;
+        width: 100px;
+        height: 1.8rem;
+        margin-top: 70%;
+      }
+
+      .agendados{
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        padding: 2%;
+        width: 24%;
+        font-size: 1rem;
+        margin-left: 0;
+      }
+
+      .outras-formas-pagamentos {
+        font-size: 0.9rem;
+      }
+
+      .bolinha-pagamento{
+        width: 100%;
+      }
+
+      .bolinha-pagamento input{
+        padding: 5%;
+        width: 100px;
+        height: 1.9rem;
+        margin-left: 72%;
+        margin-top: -100%;
+      }
+
+      .pagar-final{
+        background-color: black;
+        color: white;
+        width: 60%;
+        padding: 2%;
+        font-size: 1.2rem;
+        margin-left: 20%;
+        border-radius: 15px;
+      }
+
+
+    
+
+
+     
 
 
    
