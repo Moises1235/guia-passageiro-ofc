@@ -1229,6 +1229,44 @@ footer img{
         border-radius: 15px;
       }
 
+      /* Entrega solicitada */
+      .destinatario{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+      }
+
+      .destinatario img{
+        width: 18%;
+        margin-bottom: 6%;
+      }
+
+      .espaco-data{
+        margin-left: 5%;
+      }
+
+      .pedido{
+        margin-left: 5%;
+        margin-top: 15%;
+      }
+
+      .detalhes-pedido{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+
+      .detalhes-pedido span{
+        font-size: 1.6rem;
+        color: black;
+      }
+
+      .detalhes-pedido img{
+        width: 50%;
+        margin-right: 5%;
+        margin-left: 5%;
+      }
+
     
 
 
