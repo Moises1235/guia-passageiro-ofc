@@ -153,7 +153,7 @@ body{
     margin-top: 0;
     padding-bottom: 0;
     margin-left: -8%;
-    margin-bottom:0;
+    margin-bottom:3%;
 }
 
 .header-inicial{
@@ -272,12 +272,15 @@ footer img{
     color: #3b3b3b;
   }
   
-  .nomes-01, .nomes-02{
+  .nomes-01{
     display: flex;
     gap: 20%;
     margin-left: 11%;
     margin-right: 8%;
     margin-top: -2%;
+  }
+  .nomes-02{
+    margin-left: 9%;
   }
  /* Css cadastro motorista */
 
@@ -1266,6 +1269,31 @@ footer img{
         margin-right: 5%;
         margin-left: 5%;
       }
+
+      /* serviços */
+      .icone-servico{
+          width: 15%;
+          background-color: rgb(112, 163, 245);
+          margin-top: 10%;
+          margin-left: 10%;
+          border-radius: 0.8rem;
+          padding: 2%;
+          margin-right: 6%;
+          cursor: pointer;
+      
+      }
+
+      .icone-servico img{
+        width: 100%;
+      }
+
+      .distancia{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 85vh;
+      }
+   
 
     
 
